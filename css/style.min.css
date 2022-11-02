@@ -204,15 +204,14 @@
 * .label {
   position: relative;
   margin: 0 auto;
-  padding: 5px 12px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  font-weight: 300;
-  font-size: 11px;
-  line-height: 11px;
-  width: 112px;
   height: 24px;
+  width: 112px;
+  padding: 5px 12px;
   background-color: #000000;
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
   text-align: center;
   z-index: 2;
 }
@@ -227,11 +226,11 @@
   position: relative;
   margin-bottom: 0;
   margin-top: 38px;
-  text-transform: uppercase;
   color: #222222;
-  font-weight: 700;
   font-size: 38px;
   line-height: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
   text-align: center;
   z-index: 2;
 }
@@ -242,8 +241,8 @@
   position: relative;
   margin-top: 19px;
   color: #222222;
-  font-weight: 400;
   font-size: 17px;
+  font-weight: 400;
   text-align: center;
   z-index: 2;
 }
@@ -285,10 +284,10 @@
   background: url("../img/bg/mobile_screen_6.png") center center/cover no-repeat;
 }
 * .mobile_item_subtitle {
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 31px;
   color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -448,7 +447,7 @@
 * .footer_divider {
   width: 299px;
   height: 4px;
-  background: #1FBAD6;
+  background-color: #1FBAD6;
   margin: 0 auto;
 }
 * .footer_wrapper {
@@ -567,7 +566,7 @@
   * .reasons_descr {
     width: 300px;
   }
-  * .mobile_mobile_item {
+  * .mobile_item {
     width: 290px;
   }
   * .mobile_subtitle {
@@ -579,6 +578,9 @@
   }
   * .require br {
     display: none;
+  }
+  * .footer_wrapper > div {
+    width: 50%;
   }
   * .footer_wrapper > div:nth-child(1) {
     width: 25%;
@@ -679,7 +681,7 @@
   * .footer_wrapper > div:nth-child(1) {
     width: 100%;
   }
-  * .footer_wrapper > div:nth-chiild(3) {
+  * .footer_wrapper > div:nth-child(3) {
     width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
